@@ -1,0 +1,97 @@
+/* RESET DEFAULT STYLES */
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+select, input, textarea {
+  font-size: 18px;
+  color: #000;
+  vertical-align: middle;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:link, a:visited {
+  color: #80A60F;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+button:disabled {
+  border: #dddddd 1px solid;
+  background: #ffffff;
+  color: #dddddd;;
+}
+
+ul{
+  text-align: justify;
+  width: auto;
+  display: inline-block;
+  margin-left: 15%;
+}
+
+ul li p{
+  display: inline-block;
+  margin-right: 20px;
+  width: 100px;
+}
+
+ul li p.line {
+  background: linear-gradient(to left, red, gold);
+  height: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+#speak{
+  background: url("../images/say.png") no-repeat;
+  background-size: 270px 270px;
+  height: 270px;
+  width: 270px;
+  display: inline-block;
+}
+
+#say{
+  padding-top: 70px;
+  padding-left: 10px;
+}
+
+#want{
+  white-space: pre-line;
+}
